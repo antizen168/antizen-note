@@ -24,12 +24,19 @@ footer: MIT Licensed | Copyright © 2019 Antizen
 ## Getting Started
 
 ```bash
-# clone the project
-git clone https://github.com/forwardfirst/antizen_study.git
+# 安装vuepress组件，如已安装，就不需要安装此组件
+npm install -g vuepress
 
-# install dependency
-npm install
+# 导出Antizen项目
+git clone https://github.com/forwardfirst/antizen-note.git
 
-# develop
+# 本地开发环境查看
 npm run dev
+
+# 本地编译
+npm run build
+
+# 部署至github
+npm run deploy:win /  npm run deploy:linux
+
 ```
