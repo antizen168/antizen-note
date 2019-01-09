@@ -1,15 +1,15 @@
 #!/usr/bin/env sh
 
-# È·±£½Å±¾Å×³öÓöµ½µÄ´íÎó
+# ç¡®ä¿è„šæœ¬æŠ›å‡ºé‡åˆ°çš„é”™è¯¯
 set -e
 
-# Éú³É¾²Ì¬ÎÄ¼ş
+# ç”Ÿæˆé™æ€æ–‡ä»¶
 npm run build
 
-# ½øÈëÉú³ÉµÄÎÄ¼ş¼Ğ
+# è¿›å…¥ç”Ÿæˆçš„æ–‡ä»¶å¤¹
 cd docs/.vuepress/dist
 
-#´´½¨.nojekyll ·ÀÖ¹Github Pages build´íÎó
+#åˆ›å»º.nojekyll é˜²æ­¢Github Pages buildé”™è¯¯
 touch .nojekyll
 
 git init
