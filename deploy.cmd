@@ -17,7 +17,7 @@ git push -f git@github.com:forwardfirst/antizen-note.git master
 npm run build
 
 :: 进入生成的文件夹
-cd docs/.vuepress/dist
+cd docs\\.vuepress\\dist
 
 :: 上传至静态展示github
 
