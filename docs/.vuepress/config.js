@@ -2,14 +2,14 @@
 module.exports = {
   title: 'Antizen 学习笔记',
   description: '生活是一种态度，逆境中，快速实现自我突破!',
-  //base: '/antizen-note/',
+  base: '/antizen-note/',
   head: [
     ['link',{rel: 'icon',href: '/favicon.ico'}],
     ['link', { rel: 'manifest', href: '/manifest.json' }]
   ],
   themeConfig: {
-    //repo: 'forwardfirst/antizen-note',
-    //docsRepo: 'forwardfirst/antizen-note',
+    repo: 'forwardfirst/antizen-note',
+    docsRepo: 'forwardfirst/antizen-note',
     docsDir: 'docs',
     editLinks: false,
     sidebarDepth: 3,
