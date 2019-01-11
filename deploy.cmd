@@ -13,7 +13,7 @@ git commit -m 'submit'
 git push -f git@github.com:forwardfirst/antizen-note.git master
 
 
-:: 生成静态文件
+:: 编译项目，使用call来调用，不然后续命令无法执行
 call npm run build
 
 :: 进入生成的文件夹

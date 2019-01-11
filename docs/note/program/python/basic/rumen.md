@@ -89,4 +89,26 @@ while True:
         print("没有继续的值",it)
         break
 
+# 元组 - 跟列表类型，但是元组创建的元素不能修改
+tup1 = ('1',2,3,'4','aaaa')
+#访问元组
+print(tup1[0]) # 取下标0的元素
+print(tup1[0:2])  #截取方式访问，从下标0开始，往后读2个元素
+
+# 字典
+dict = {'Alice': '2341', 'Beth': '9102', 'Cecil': '3258'}
+print(dict['Alice']) #访问字典
+# 字典遍历
+for x in dict:
+    print("键="+x,"值="+dict[x])
+
+# 集合是无序不重复的序列，注意，重复的只会保留一个
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print(basket)
+
+#将字符串转为集合,使用set方法，也可以将一个列表转为集合，可实现去重
+a = set('abracadabra')
+print(a)
+
+#使用内置标准库转换
 ```
